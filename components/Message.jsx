@@ -117,6 +117,7 @@ const Message = ({ message }) => {
                     url: message.img,
                   })
                 }
+                alt="circle"
               />
               {imageViewer && imageViewer?.msgId === message?.id && (
                 <ImageViewer

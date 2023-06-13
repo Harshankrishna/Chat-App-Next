@@ -52,6 +52,7 @@ const Avatar = ({ size, user, onClick }) => {
             height={s}
             src={user.photoURL}
             className="object-cover object-center w-full h-full"
+            alt="avatar"
           />
         </div>
       ) : (

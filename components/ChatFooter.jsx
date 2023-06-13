@@ -53,6 +53,7 @@ const ChatFooter = () => {
           <img
             src={attachmentPreview}
             className="w-full h-full object-contain object-center"
+            alt="preview"
           />
           <div
             className="w-6 h-6 rounded-full bg-red-500 flex justify-center items-center absolute -right-2 -top-2 cursor-pointer"
@@ -105,7 +106,7 @@ const ChatFooter = () => {
         <div className="absolute -top-6 left-4 bg-c2 w-full h-6">
           <div className="flex gap-2 w-full h-full opacity-50 text-sm text-white">
             {`${data.user.displayName} is typing`}
-            <img src="/typing.svg" />
+            <img src="/typing.svg" alt="typing" />
           </div>
         </div>
       )}
