@@ -118,7 +118,7 @@ const Login = () => {
           <span className="w-5 h-[1px] bg-c3"></span> */}
         </div>
         <form
-          className="flex flex-col items-center gap-3 w-[400px] mt-5"
+          className="flex flex-col items-center gap-3 w-[300px] mt-5"
           onSubmit={handleSubmit}
         >
           <input
